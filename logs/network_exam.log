@@ -1,0 +1,230 @@
+[DEBUG] [2021-06-03 10:18] testDataSource()
+[DEBUG] [2021-06-03 10:18] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-06-03 10:18] LoginTimeout 30
+[DEBUG] [2021-06-03 10:19] testSqlSession()
+[DEBUG] [2021-06-03 10:19] session org.apache.ibatis.session.defaults.DefaultSqlSession@3a0b9f9c
+[DEBUG] [2021-06-03 10:20] testDataSource()
+[DEBUG] [2021-06-03 10:20] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-06-03 10:20] LoginTimeout 30
+[DEBUG] [2021-06-03 10:20] testSqlSession()
+[DEBUG] [2021-06-03 10:20] session org.apache.ibatis.session.defaults.DefaultSqlSession@6002ef6d
+[DEBUG] [2021-06-03 13:34] test02SelectByNo()
+[DEBUG] [2021-06-03 13:34] test03InsertEmployee()
+[DEBUG] [2021-06-03 13:34] test04DeleteEmployee()
+[DEBUG] [2021-06-03 13:34] test05UpdateEmployee()
+[DEBUG] [2021-06-03 13:35] test02SelectByNo()
+[DEBUG] [2021-06-03 13:35] test03InsertEmployee()
+[DEBUG] [2021-06-03 13:35] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 13:35] ==> Parameters: 2001(Integer), ê¹€ìƒê±´(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 13:35] test04DeleteEmployee()
+[DEBUG] [2021-06-03 13:35] test05UpdateEmployee()
+[DEBUG] [2021-06-03 13:35] test02SelectByNo()
+[DEBUG] [2021-06-03 13:35] test03InsertEmployee()
+[DEBUG] [2021-06-03 13:35] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 13:35] ==> Parameters: 2001(Integer), ê¹€ìƒê±´(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 13:35] test04DeleteEmployee()
+[DEBUG] [2021-06-03 13:35] test05UpdateEmployee()
+[DEBUG] [2021-06-03 13:41] test02SelectByNo()
+[DEBUG] [2021-06-03 13:41] test03InsertEmployee()
+[DEBUG] [2021-06-03 13:41] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 13:41] ==> Parameters: 2001(Integer), ê¹€ìƒê±´(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 13:41] <==    Updates: 1
+[DEBUG] [2021-06-03 13:41] test04DeleteEmployee()
+[DEBUG] [2021-06-03 13:41] test05UpdateEmployee()
+[DEBUG] [2021-06-03 14:04] test01SelectAll()
+[DEBUG] [2021-06-03 14:04] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:04] ==> Parameters: 
+[TRACE] [2021-06-03 14:04] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:04] <==        Row: 1003, ì¡°ë¯¼í¬, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:04] <==        Row: 1365, ê¹€ìƒì›, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:04] <==        Row: 2001, ê¹€ìƒê±´, 5, 2106, 2000000, 3
+[TRACE] [2021-06-03 14:04] <==        Row: 2106, ê¹€ì°½ì„­, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:04] <==        Row: 3011, ì´ìˆ˜ë¯¼, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:04] <==        Row: 3426, ë°•ì˜ê¶Œ, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:04] <==        Row: 3427, ìµœì¢…ì² , 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:04] <==        Row: 4377, ì´ì„±ë˜, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:04] <==      Total: 8
+[DEBUG] [2021-06-03 14:04] test02SelectByNo()
+[DEBUG] [2021-06-03 14:04] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:04] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:04] ==> Parameters: 2001(Integer), ê¹€ìƒê±´(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:04] test04DeleteEmployee()
+[DEBUG] [2021-06-03 14:04] test05UpdateEmployee()
+[DEBUG] [2021-06-03 14:05] testDataSource()
+[DEBUG] [2021-06-03 14:05] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-06-03 14:05] LoginTimeout 30
+[DEBUG] [2021-06-03 14:05] testSqlSession()
+[DEBUG] [2021-06-03 14:05] session org.apache.ibatis.session.defaults.DefaultSqlSession@7181ff7b
+[DEBUG] [2021-06-03 14:05] test01SelectAll()
+[DEBUG] [2021-06-03 14:05] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:05] ==> Parameters: 
+[TRACE] [2021-06-03 14:05] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:05] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:05] <==        Row: 1365, ±è»ó¿ø, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:05] <==        Row: 2106, ±èÃ¢¼·, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:05] <==        Row: 3011, ÀÌ¼ö¹Î, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:05] <==        Row: 3426, ¹Ú¿µ±Ç, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:05] <==        Row: 3427, ÃÖÁ¾Ã¶, 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:05] <==        Row: 4377, ÀÌ¼º·¡, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:05] <==      Total: 7
+[DEBUG] [2021-06-03 14:05] test02SelectByNo()
+[DEBUG] [2021-06-03 14:05] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:05] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:05] ==> Parameters: 2001(Integer), ±è»ó°Ç(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:05] <==    Updates: 1
+[DEBUG] [2021-06-03 14:05] test04DeleteEmployee()
+[DEBUG] [2021-06-03 14:05] test05UpdateEmployee()
+[DEBUG] [2021-06-03 14:10] test02SelectByNo()
+[DEBUG] [2021-06-03 14:10] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee where empno = ?
+[DEBUG] [2021-06-03 14:10] ==> Parameters: 1003(Integer)
+[TRACE] [2021-06-03 14:10] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:10] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[DEBUG] [2021-06-03 14:10] <==      Total: 1
+[DEBUG] [2021-06-03 14:13] test01SelectAll()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 
+[TRACE] [2021-06-03 14:13] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:13] <==        Row: 1003, ì¡°ë¯¼í¬, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:13] <==        Row: 1365, ê¹€ìƒì›, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:13] <==        Row: 2106, ê¹€ì°½ì„­, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:13] <==        Row: 3011, ì´ìˆ˜ë¯¼, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:13] <==        Row: 3426, ë°•ì˜ê¶Œ, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:13] <==        Row: 3427, ìµœì¢…ì² , 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:13] <==        Row: 4377, ì´ì„±ë˜, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:13] <==      Total: 7
+[DEBUG] [2021-06-03 14:13] test02SelectByNo()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee where empno = ?
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 1003(Integer)
+[TRACE] [2021-06-03 14:13] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:13] <==        Row: 1003, ì¡°ë¯¼í¬, 3, 4377, 3000000, 2
+[DEBUG] [2021-06-03 14:13] <==      Total: 1
+[DEBUG] [2021-06-03 14:13] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 2001(Integer), ê¹€ìƒê±´(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:13] <==    Updates: 1
+[DEBUG] [2021-06-03 14:13] test04DeleteEmployee()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: delete from employee where empno = ?
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 2001(Integer)
+[DEBUG] [2021-06-03 14:13] <==    Updates: 1
+[DEBUG] [2021-06-03 14:13] test05UpdateEmployee()
+[DEBUG] [2021-06-03 14:13] test04DeleteEmployee()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: delete from employee where empno = ?
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 2001(Integer)
+[DEBUG] [2021-06-03 14:13] <==    Updates: 0
+[DEBUG] [2021-06-03 14:13] test01SelectAll()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 
+[TRACE] [2021-06-03 14:13] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:13] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:13] <==        Row: 1365, ±è»ó¿ø, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:13] <==        Row: 2106, ±èÃ¢¼·, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:13] <==        Row: 3011, ÀÌ¼ö¹Î, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:13] <==        Row: 3426, ¹Ú¿µ±Ç, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:13] <==        Row: 3427, ÃÖÁ¾Ã¶, 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:13] <==        Row: 4377, ÀÌ¼º·¡, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:13] <==      Total: 7
+[DEBUG] [2021-06-03 14:13] test02SelectByNo()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee where empno = ?
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 1003(Integer)
+[TRACE] [2021-06-03 14:13] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:13] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[DEBUG] [2021-06-03 14:13] <==      Total: 1
+[DEBUG] [2021-06-03 14:13] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 2001(Integer), ±è»ó°Ç(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:13] <==    Updates: 1
+[DEBUG] [2021-06-03 14:13] test04DeleteEmployee()
+[DEBUG] [2021-06-03 14:13] ==>  Preparing: delete from employee where empno = ?
+[DEBUG] [2021-06-03 14:13] ==> Parameters: 2001(Integer)
+[DEBUG] [2021-06-03 14:13] <==    Updates: 1
+[DEBUG] [2021-06-03 14:13] test05UpdateEmployee()
+[DEBUG] [2021-06-03 14:19] test01SelectAll()
+[DEBUG] [2021-06-03 14:19] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:19] ==> Parameters: 
+[TRACE] [2021-06-03 14:19] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:19] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:19] <==        Row: 1365, ±è»ó¿ø, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:19] <==        Row: 2106, ±èÃ¢¼·, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:19] <==        Row: 3011, ÀÌ¼ö¹Î, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:19] <==        Row: 3426, ¹Ú¿µ±Ç, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:19] <==        Row: 3427, ÃÖÁ¾Ã¶, 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:19] <==        Row: 4377, ÀÌ¼º·¡, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:19] <==      Total: 7
+[DEBUG] [2021-06-03 14:19] test02SelectByNo()
+[DEBUG] [2021-06-03 14:19] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee where empno = ?
+[DEBUG] [2021-06-03 14:19] ==> Parameters: 1003(Integer)
+[TRACE] [2021-06-03 14:19] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:19] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[DEBUG] [2021-06-03 14:19] <==      Total: 1
+[DEBUG] [2021-06-03 14:19] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:19] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:19] ==> Parameters: 2001(Integer), ±è»ó°Ç(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:19] <==    Updates: 1
+[DEBUG] [2021-06-03 14:19] test04UpdateEmployee()
+[DEBUG] [2021-06-03 14:19] ==>  Preparing: update employee set title = ?, manager = ?, salary = ?, dept = ? where empno = ?
+[DEBUG] [2021-06-03 14:19] ==> Parameters: 4(Integer), 3427(Integer), 3000000(Integer), 3(Integer), 2001(Integer)
+[DEBUG] [2021-06-03 14:19] <==    Updates: 1
+[DEBUG] [2021-06-03 14:19] test05DeleteEmployee()
+[DEBUG] [2021-06-03 14:19] ==>  Preparing: delete from employee where empno = ?
+[DEBUG] [2021-06-03 14:19] ==> Parameters: 2001(Integer)
+[DEBUG] [2021-06-03 14:19] <==    Updates: 1
+[DEBUG] [2021-06-03 14:47] test01SelectAll()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 
+[TRACE] [2021-06-03 14:47] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:47] <==        Row: 1003, ì¡°ë¯¼í¬, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:47] <==        Row: 1365, ê¹€ìƒì›, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:47] <==        Row: 2106, ê¹€ì°½ì„­, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:47] <==        Row: 3011, ì´ìˆ˜ë¯¼, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:47] <==        Row: 3426, ë°•ì˜ê¶Œ, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:47] <==        Row: 3427, ìµœì¢…ì² , 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:47] <==        Row: 4377, ì´ì„±ë˜, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:47] <==      Total: 7
+[DEBUG] [2021-06-03 14:47] test02SelectByNo()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee where empno = ?
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 1003(Integer)
+[TRACE] [2021-06-03 14:47] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:47] <==        Row: 1003, ì¡°ë¯¼í¬, 3, 4377, 3000000, 2
+[DEBUG] [2021-06-03 14:47] <==      Total: 1
+[DEBUG] [2021-06-03 14:47] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 2001(Integer), ê¹€ìƒê±´(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:47] <==    Updates: 1
+[DEBUG] [2021-06-03 14:47] test04UpdateEmployee()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: update employee set title = ?, manager = ?, salary = ?, dept = ? where empno = ?
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 4(Integer), 3427(Integer), 3000000(Integer), 3(Integer), 2001(Integer)
+[DEBUG] [2021-06-03 14:47] <==    Updates: 1
+[DEBUG] [2021-06-03 14:47] test05DeleteEmployee()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: delete from employee where empno = ?
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 2001(Integer)
+[DEBUG] [2021-06-03 14:47] <==    Updates: 1
+[DEBUG] [2021-06-03 14:47] test01SelectAll()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 
+[TRACE] [2021-06-03 14:47] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:47] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[TRACE] [2021-06-03 14:47] <==        Row: 1365, ±è»ó¿ø, 5, 3426, 1500000, 1
+[TRACE] [2021-06-03 14:47] <==        Row: 2106, ±èÃ¢¼·, 4, 1003, 2500000, 2
+[TRACE] [2021-06-03 14:47] <==        Row: 3011, ÀÌ¼ö¹Î, 2, 4377, 4000000, 3
+[TRACE] [2021-06-03 14:47] <==        Row: 3426, ¹Ú¿µ±Ç, 3, 4377, 3000000, 1
+[TRACE] [2021-06-03 14:47] <==        Row: 3427, ÃÖÁ¾Ã¶, 5, 3011, 1500000, 3
+[TRACE] [2021-06-03 14:47] <==        Row: 4377, ÀÌ¼º·¡, 1, null, 5000000, 2
+[DEBUG] [2021-06-03 14:47] <==      Total: 7
+[DEBUG] [2021-06-03 14:47] test02SelectByNo()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: select empno, empname, title, manager, salary, dept from employee where empno = ?
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 1003(Integer)
+[TRACE] [2021-06-03 14:47] <==    Columns: empno, empname, title, manager, salary, dept
+[TRACE] [2021-06-03 14:47] <==        Row: 1003, Á¶¹ÎÈñ, 3, 4377, 3000000, 2
+[DEBUG] [2021-06-03 14:47] <==      Total: 1
+[DEBUG] [2021-06-03 14:47] test03InsertEmployee()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: insert into employee( empno, empname, title, manager, salary, dept) values( ?, ?, ?, ?, ?, ? )
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 2001(Integer), ±è»ó°Ç(String), 5(Integer), 2106(Integer), 2000000(Integer), 3(Integer)
+[DEBUG] [2021-06-03 14:47] <==    Updates: 1
+[DEBUG] [2021-06-03 14:47] test04UpdateEmployee()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: update employee set title = ?, manager = ?, salary = ?, dept = ? where empno = ?
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 4(Integer), 3427(Integer), 3000000(Integer), 3(Integer), 2001(Integer)
+[DEBUG] [2021-06-03 14:47] <==    Updates: 1
+[DEBUG] [2021-06-03 14:47] test05DeleteEmployee()
+[DEBUG] [2021-06-03 14:47] ==>  Preparing: delete from employee where empno = ?
+[DEBUG] [2021-06-03 14:47] ==> Parameters: 2001(Integer)
+[DEBUG] [2021-06-03 14:47] <==    Updates: 1

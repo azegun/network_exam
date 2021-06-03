@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="network_exam.mapper.EmployeeMapper">
+	
+	
+		<!-- property는 dto column은 sql -->
+		<resultMap type="Employee" id="resEmployee">
+			<id property="empNo" column="manager_no"/>			
+			<result property="empName" column="manager_name"/>
+		</resultMap>
+		
+		<resultMap type="Title" id="resTitle">
+			<id property="no" column="title_no"/>
+			<result property="name" column="title_name"/>
+		</resultMap>
+		
+		<resultMap type="Department" id="resDepartment">
+			<id property="dNo" column="deptNo"/>
+			<result property="dName" column="deptName"/>
+			<result property="floor" column="floor"/>						
+		</resultMap>
+		
+		<resultMap type="Employee" id="AssociationAll">
+				<id property="empNo" column="empno"/>		
+				<result property="empName" column="empname"/>
+				<result property="salary" column="salary"/>						
+				<association property="title" resultMap="resTitle"/>
+				<association property="manager"  resultMap="resEmployee"/>
+				<association property="dept" resultMap="resDepartment"/>
+		</resultMap>		 
+			 
+			 <!-- SQL 선언 -->
+			 <sql id="SqlList">
+					 select 
+							empno, empname,
+							title_no, title_name,
+							manager_no, manager_name,
+							salary, 
+							deptno, deptname
+					from vw_full_employee
+			 </sql>
+			 
+			 <sql id="whereSQL">
+				<where>
+					<if test="empNo != null">
+						empno = #{empNo}
+					</if>
+				</where>
+			</sql>
+			 
+			<select id="getLists" resultMap="AssociationAll">
+				<include refid="SqlList"/>
+			</select>
+			
+			<select id="getEmployee" resultMap="AssociationAll">
+				<include refid="SqlList"/>
+				<include refid="whereSQL"/>
+			</select>	
+			
+			<insert id="registerEmployee" parameterType="Employee">
+					insert into employee(
+						empno, empname, title, manager, salary, dept)
+					 values(
+					 	#{empNo}, #{empName}, #{title.no}, #{manager.empNo}, #{salary}, #{dept.dNo} 
+					 	 )
+			</insert>
+			
+			<delete id="removeEmployee">
+					delete from employee where empno = #{empNo}
+			</delete>
+			
+			<update id="modifyEmployee">
+					update employee 
+							set title = #{title.no}, manager =  #{manager.empNo},  salary = #{salary}, dept = #{dept.dNo}
+					where empno = #{empNo}			
+			</update>
+</mapper>
